@@ -1,0 +1,34 @@
+{
+  "name": "QZone",
+  "version": "1.0.0",
+  "description": "An Electron application for Youdao-Note",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "build": "./scripts/build-all.sh",
+    "build:osx": "./scripts/build.sh darwin x64",
+    "build:osx64": "./scripts/build.sh darwin x64",
+    "build:linux32": "./scripts/build.sh linux ia32",
+    "build:linux": "./scripts/build.sh linux x64",
+    "build:linux64": "./scripts/build.sh linux x64",
+    "build:win": ".\\scripts\\build-win32.bat win32 ia32",
+    "build:win32": ".\\scripts\\build-win32.bat win32 ia32",
+    "build:win64": ".\\scripts\\build-win32.bat win32 x64"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamasBian/QZone.git"
+  },
+  "keywords": [
+    "QZone",
+    "QQ空间"
+  ],
+  "author": "Zhiqiang Bian",
+  "license": "MIT",
+  "homepage": "https://github.com/jamasBian/QZone.git",
+  "dependencies": {
+    "electron": "1.4.15",
+    "electron-packager": "^8.5.1",
+    "json-stringify-safe": "*"
+  }
+}
