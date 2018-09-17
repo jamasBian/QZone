@@ -27,8 +27,4 @@ npm run build:linux
 npm run build:win
 ```
 
-## 下载已经打包好的应用
-[高效ToDo Linux 64位版本](https://github.com/jamasBian/GxToDo-Linux/releases/download/1.0.0/GxToDo-Linux-linux-x64.zip)
-
-
 #### License [CC0 (Public Domain)](LICENSE.md)
